@@ -27,8 +27,7 @@ public class LibraryTest {
 
     @Test
     public void getBookValidInput(){
-        Book expectedResult = new Book("Hamlet", "William Shakespeare");
-        assertEquals(library.getBook("Hamlet"), expectedResult, "Incorrect book is returned for a valid input.");
+        assertEquals(library.getBook("Hamlet"), book3, "Incorrect book is returned for a valid input.");
     }
 
     @Test
